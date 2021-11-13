@@ -15,7 +15,7 @@ const PADDLE_THICKNESS = 5;
 // ----
 var player1Score = 0;
 var player2Score = 0;
-const WIN_SCORE = 3;
+const WIN_SCORE = 7;
 
 var showWinScreen = false;
 
