@@ -10,7 +10,7 @@ var ballSpeedY = 4;
 var paddle1Y = 250;
 var paddle2Y = 250;
 const PADDLE_HEIGHT = 100;
-const PADDLE_THICKNESS = 5;
+const PADDLE_THICKNESS = 7;
 
 // ----
 var player1Score = 0;
@@ -150,10 +150,10 @@ function drawEverything() {
     Net();
 
     // show the left player paddle
-    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'red');
+    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
 
     // show the right player paddle
-    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'red');
+    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
 
     // show the ball
     colorCircle(ballX, ballY, 10, 'white');
