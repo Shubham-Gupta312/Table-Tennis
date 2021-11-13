@@ -1,7 +1,7 @@
 var canvas;
 var canvasContext;
 var ballX = 50;
-var ballSpeedX = 10;
+var ballSpeedX = 13;
 // ----
 var ballY = 50;
 var ballSpeedY = 4;
@@ -150,10 +150,10 @@ function drawEverything() {
     Net();
 
     // show the left player paddle
-    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
+    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
 
     // show the right player paddle
-    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
+    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
 
     // show the ball
     colorCircle(ballX, ballY, 10, 'white');
