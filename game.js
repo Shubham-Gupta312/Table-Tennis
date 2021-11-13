@@ -150,10 +150,10 @@ function drawEverything() {
     Net();
 
     // show the left player paddle
-    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
+    colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'red');
 
     // show the right player paddle
-    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'burlywood');
+    colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'red');
 
     // show the ball
     colorCircle(ballX, ballY, 10, 'white');
